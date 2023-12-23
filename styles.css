@@ -42,7 +42,11 @@
     border: 1px solid black;
     background-color: white;
     border-radius: 16px;
-    box-shadow: 16px 16px; /* adds shadow to the box */
+    box-shadow: 10px 10px; /* adds shadow to the box */
+}
+
+.box:hover {
+    box-shadow: 16px 16px;
 }
 
 .box div {
