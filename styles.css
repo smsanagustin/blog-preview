@@ -1,0 +1,105 @@
+.main {
+    background-color: #F5D04E;
+    font-family: 'Figtree', sans-serif;
+}
+
+/* add font */
+@font-face {
+    font-family: Figtree;
+    src: url('/blog-preview-card-main/assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: FigtreeItalic;
+    src: url('/blog-preview-card-main/assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: FigtreeExtraBold;
+    src: url('/blog-preview-card-main/assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: FigtreeSemiBold;
+    src: url('/blog-preview-card-main/assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 520px;
+    width: 370px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 16px 16px; /* adds shadow to the box */
+}
+
+.box div {
+    margin-left: 18px;
+}
+
+.thumbnail {
+    border-radius: 16px;
+    margin: 18px;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    border-radius: 16px;
+}
+
+.blog-tag {
+    display: flex;
+    align-items: center;
+    background-color: #F5D04E;
+    border-radius: 3px;
+    margin: 18px;
+    padding: 0px 9px 0px 9px;
+    font-family: 'FigtreeExtraBold', sans-serif;
+    height: 5%;
+    width: 67px;
+    max-width: 100%
+}
+
+.blog-tag p {
+    flex: 1;
+    margin: 0;
+}
+
+.blog-title {
+    font-size: x-large;
+    font-family: 'FigtreeExtraBold', sans-serif;
+    color: hsl(47, 88%, 63%);
+}
+
+.blog-content {
+    color: hsl(0, 0%, 50%)
+}
+
+.poster {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon {
+    height: 40px;
+}
+
+.user-name {
+    font-family: 'FigtreeExtraBold', sans-serif;
+    margin-left: 10px;
+}
