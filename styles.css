@@ -1,6 +1,11 @@
 .main {
     background-color: #F5D04E;
     font-family: 'Figtree', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 /* add font */
@@ -31,7 +36,7 @@
 }
 
 .flex-container {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     display: flex;
     justify-content: center;
 }
@@ -87,7 +92,6 @@
 .blog-title {
     font-size: x-large;
     font-family: 'FigtreeExtraBold', sans-serif;
-    color: hsl(47, 88%, 63%);
 }
 
 .blog-content {
